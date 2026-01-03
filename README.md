@@ -51,7 +51,7 @@ python -m agentic_ai_mini.eval --suite suites/basic.json
 
 ---
 
-## How to extend (Prof. Kim-style expectations)
+## How to extend
 
 1) Replace the policy with an LLM policy (or an RL policy):
 - Implement `Policy.act(state) -> Action` in `policies/`
