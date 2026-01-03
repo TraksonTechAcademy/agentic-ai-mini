@@ -1,0 +1,31 @@
+{
+  "name": "basic",
+  "description": "Small deterministic tasks to validate agent loop + tool use.",
+  "tasks": [
+    {
+      "id": "calc_01",
+      "prompt": "Compute 19*7 + 3.",
+      "expected": "136"
+    },
+    {
+      "id": "calc_02",
+      "prompt": "Compute (1024/8) - 11.",
+      "expected": "117"
+    },
+    {
+      "id": "str_01",
+      "prompt": "Reverse the string: 'QueenUniversity'.",
+      "expected": "ytisrevinUneeuQ"
+    },
+    {
+      "id": "str_02",
+      "prompt": "Count vowels in: 'Intelligent Mining Systems'.",
+      "expected": "7"
+    },
+    {
+      "id": "mix_01",
+      "prompt": "Uppercase then reverse: 'agentic'.",
+      "expected": "CITNEGA"
+    }
+  ]
+}
